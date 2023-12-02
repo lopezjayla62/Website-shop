@@ -1,0 +1,100 @@
+ footer {
+     position: relative;
+     width: 100%;
+     padding: 0px 10vw;
+     padding-bottom: 80px;
+     background-image: url(fb3.jpeg);
+     margin-top: 10px;
+ }
+ 
+ .footer-content {
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+     color: black
+ }
+ 
+ .footer-ul-container {
+     width: 45%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+     color: #92F8FF;
+ }
+ 
+ .category {
+     width: 200px;
+     list-style: none;
+     margin-top: 5px;
+ }
+ 
+ .category-title {
+     text-transform: capitalize;
+     color: black;
+     font-size: 21px;
+     width: 100%;
+     display: flex;
+     padding: 3px 5vw;
+     justify-content: center;
+     margin-top: 2px;
+     font-weight: bold;
+ }
+ 
+ .category .footer-link {
+     text-decoration: none;
+     font-size: 15px;
+     text-transform: capitalize;
+     color: black;
+     margin-top: 2px;
+     width: 100%;
+     display: flex;
+     padding: 3px 5vw;
+     justify-content: center;
+     list-style: none;
+ }
+ 
+ .footer-link:hover {
+     color: black;
+ }
+ 
+ .footer-title,
+ .info {
+     color: black;
+     margin: 10px 0;
+     padding: 3px 0vw;
+ }
+ 
+ .footer-title {
+     color: black;
+     font-size: 21px;
+     font-weight: bold;
+ }
+ 
+ .footer-social-container {
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+     color: blue;
+ }
+ 
+ .social-link {
+     color: blue;
+     margin-left: 20px;
+     text-transform: capitalize;
+     justify-content: space-between;
+ }
+ 
+ .social-link:nth-child(1) {
+     margin-left: 0;
+ }
+ 
+ .footer-credit {
+     width: 100%;
+     padding: 15px;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     text-align: center;
+     color: black;
+     background-color: grey;
+ }
